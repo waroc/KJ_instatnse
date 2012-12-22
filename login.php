@@ -19,6 +19,15 @@ function post( where ){
 
 <body>
 
+<?php
+include('header.html');
+?>
+
+<br><br>
+<div id = main>
+<br>
+<div id = login>
+
 <form method = post action = menu.php name = form id = form>
 
 <input type = text size = 30 name = u_id><br><br>
@@ -28,6 +37,10 @@ function post( where ){
 <input type = "button" value="ログイン" onclick = post("menu")>
 
 </form>
+
+</div><!-- login終わり -->
+<br>
+</div><!-- main終わり-->
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-#head { background:#ffa500; border:solid 1px #ffa611; font-size:35; padding:5px;
+#head { background:#ffa500; border:solid 1px #ffa611; font-size:30; padding:5px;
 	text-shadow:
 		3px 3px 5px #cccccc,
 		-1px -1px 1px #cccccc,
@@ -7,4 +7,14 @@
 		-1px -1px 1px #cccccc;
 }
 
-#contents{ margin:30px;}
+#main{
+	background:#aaaaff;
+	text-align:center;
+	width:100%;
+}
+
+#login{
+	width:780px;
+	background:#ddddff;
+	margin:0px auto;
+ }
